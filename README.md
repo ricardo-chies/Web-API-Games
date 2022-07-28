@@ -1,20 +1,19 @@
-# Web-API-Games
+# API-Core-Games
 
 # Descrição
-Este projeto consiste na criação de uma Web API.<br>
+Este projeto consiste na criação de uma API Core.<br>
 Foi criada uma aplicação: 
 ASP Net Core Web API .net 5.0 utilizando Swagger para implementação de uma interface que permita testar a aplicação e documentar a API.
+Utilizando a biblioteca AutoMapper para fazer o mapeamento das classes.
+Criando repositórios genéricos para deixar o código melhor estruturado.
 Conectando os dados com o banco de dados MySql.
-Utilizando os métodos Http: Get, Post, Put e Delete para manipular os dados.
+Utilizando os métodos Http: Get e Post para manipular os dados.
 
 Através desta API podemos:
 
 <ul>
-  <li>Buscar todos os dados de games inseridos no banco.</li>
   <li>Buscar os dados de um game específico pelo seu Id.</li>
   <li>Adicionar novos dados de games ao banco.</li>
-  <li>Atualizar os dados de um game.</li>
-  <li>Deletar os dados de um game pelo seu Id.</li>
 </ul>
 
 # Layout do Projeto
@@ -22,6 +21,7 @@ Através desta API podemos:
 <p align="center">
   <img width="900" height="450" src="Games/src/assets/to_readme/Interface.png">
   <img width="900" height="450" src="Games/src/assets/to_readme/Get.png">
+  <img width="900" height="450" src="Games/src/assets/to_readme/Post.png">
 </p>
 
 # Tecnologias Utilizadas
