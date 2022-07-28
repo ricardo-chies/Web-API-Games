@@ -2,13 +2,15 @@
 
 # Descrição
 Este projeto consiste na criação de uma API Core.<br>
-Foi criada uma aplicação: 
-ASP Net Core Web API .net 5.0 utilizando Swagger para implementação de uma interface que permita testar a aplicação e documentar a API.
-Utilizando a biblioteca AutoMapper para fazer o mapeamento das classes.
-Criando repositórios genéricos para deixar o código melhor estruturado.
-Conectando os dados com o banco de dados MySql.
-Utilizando os métodos Http: Get e Post para manipular os dados.
-
+Foi criada uma aplicação ASP Net Core Web API .net 5.0 utilizando:
+<ul>
+  <li>Swagger para implementação de uma interface que permita testar a aplicação e documentar a API.</li>
+  <li>Biblioteca AutoMapper para fazer o mapeamento das classes.</li>
+  <li>Repositórios genéricos para deixar o código melhor estruturado.</li>
+  <li>Banco de dados MySql.</li>
+  <li>Métodos Http: Get e Post para manipular os dados.</li>
+</ul>
+  
 Através desta API podemos:
 
 <ul>
