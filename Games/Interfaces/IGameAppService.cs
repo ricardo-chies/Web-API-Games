@@ -8,8 +8,7 @@ namespace Games.Interfaces
 {
     public interface IGameAppService
     {
-        //Task<IEnumerable<GameDTO>> SelecionarTodos();
         public Task<GameDTO> SelecionarId(int codigo_do_jogo);
-        //public Task<GameDTO> Adicionar(GameDTO game);
+        public Task<GameDTO> Adicionar(GameDTO game);
     }
 }

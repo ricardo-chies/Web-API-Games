@@ -24,23 +24,17 @@ namespace Games.Service
 
         public async Task<GameDTO> SelecionarId(int codigo_do_jogo)
         {
-            var result = await _gameRepository.GetId(codigo_do_jogo);
-            var response = _mapper.Map<GameDTO>(result);
-            return response;
+            GameEntity gameEntity = await _gameRepository.GetId(codigo_do_jogo);
+            GameDTO gameDTO = _mapper.Map<GameDTO>(gameEntity);
+            return gameDTO;
         }
 
-        //public async Task<IEnumerable<GameDTO>> SelecionarTodos()
-        //{
-        //    var result = await _gameRepository.GetAll();
-        //    var response = _mapper.Map<IEnumerable<GameDTO>>(result);
-        //    return response;
-        //}
+        public async Task<GameDTO> Adicionar(GameDTO game)
+        {
+            GameEntity gameEntity = _mapper.Map<GameEntity>(game);
+            await _gameRepository.Add(gameEntity);
+            return game;
+        }
 
-        //public async Task<GameDTO> Adicionar(GameDTO game)
-        //{
-        //    var response = _mapper.Map<GameEntity>(game);
-        //    var result = await _gameRepository.Add(response);
-        //    return result;
-        //}
     }
 }

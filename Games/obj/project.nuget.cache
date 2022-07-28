@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0XGAvsTB4rgKgO7/hWtIJegv6Blvdda2BJMQRZ1ulMbajvXpRN3QoiCBl9PC/7GwBCr8hwYxWf3EIJ2shguuyQ==",
+  "dgSpecHash": "TwRvuXSaTd8CS8XayZh2N2JOx+GD4OKfXZvyvo6bi8be1IGBXDWOliA+GRe4BebooCOw2GwXRpUDCGuHgHBGsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ricardo Chies\\Documents\\ADS - UNASP\\Projetos\\Web-API-Games-main\\Games\\Games.csproj",
+  "projectFilePath": "C:\\Users\\Ricardo Chies\\Documents\\Projetos\\AP-Core-Games\\Games\\Games.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo Chies\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Ricardo Chies\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
